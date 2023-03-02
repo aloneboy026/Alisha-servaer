@@ -40,7 +40,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/mondo_lover")
