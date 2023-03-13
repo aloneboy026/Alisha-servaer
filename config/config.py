@@ -15,7 +15,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "5791761493:AAERfAvncfkAdpOBITnV3Wa_9RQyS7ci1_o"
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kittuthemeoe:kiranraj@cluster0.mv6oj.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "90000000")
+    getenv("DURATION_LIMIT", "900")
 )
 
 SONG_DOWNLOAD_DURATION = int(
