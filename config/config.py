@@ -7,10 +7,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "29468174"))
-API_HASH = getenv("API_HASH", "7700926f228c8928e8373e1f03563625")
+API_ID = int(getenv("API_ID", "25286995"))
+API_HASH = getenv("API_HASH", "115a9d0051091db1bdb496669206fdc0")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5742533835:AAEmGZGw8KG86jDryFWshTns7CxAj6wQ9wE")
+BOT_TOKEN = getenv("BOT_TOKEN", "5791761493:AAEfZbtQR9K4nfGK5W-hE1wEkMEfAXQRxqQ")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kittuthemeoe:kiranraj@cluster0.mv6oj.mongodb.net/?retryWrites=true&w=majority")
 
@@ -24,7 +24,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001745108048")
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "None")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "angel music")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5613528193").split())
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Team-Alisha/AlishaMusic",
+    "https://github.com/aloneboy026/Alisha-servaer",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
